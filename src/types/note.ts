@@ -5,6 +5,6 @@ export interface Note {
   title: string;
   content: string;
   tag: NoteTag;
-  readonly createdAt: string;
-  readonly updatedAt: string; 
+  createdAt: string;
+  updatedAt: string;
 }
